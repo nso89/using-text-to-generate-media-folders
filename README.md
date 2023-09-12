@@ -1,5 +1,4 @@
-# project-name
-Project Description
+Using Text to Generate Media Folders 
 
 * [Prerequisites](#prerequisites)
 * [Setup](#setup)
