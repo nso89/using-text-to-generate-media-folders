@@ -11,16 +11,18 @@ Project Description
 * A complete install of `Python 3.x`.
 
 #### <a name="setup"></a>Setup
-1. Under your `USERPROFILE`, extract `program-name-main.zip`.
+1. Under your `USERPROFILE`, extract `using-text-to-generate-media-folders-main.zip`.
 
 **Example**:
 ```
+C:\Users\nso89\using-text-to-generate-media-folders-main
 ```
 #### <a name="running-the-script"></a>Running the Script
-1. Open `cmd.exe` and change the directory to the `program-name-main` folder.
+1. Open `cmd.exe` and change the directory to the `using-text-to-generate-media-folders-main` folder.
 
 **Example**:
 ```
+C:\Users\nso89>cd using-text-to-generate-media-folders-main
 ```
 2. Start the `main.py` script.
 
