@@ -21,7 +21,7 @@ def main():
         
         sub_folders : List[str] = ["Sets", "Video"]
 
-        folder = input("Folder: ").strip().title().replace("-", " ")
+        folder = input("Folder: ").strip().title()
         verify(parameter = folder, name = "Folder Name")
 
         source = SOURCE_PARENT.joinpath(folder)
