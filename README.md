@@ -5,7 +5,6 @@ Project Description
 * [Setup](#setup)
 * [Running the Script](#running-the-script)
 * [Configuration](#configuration)
-* [Cleanup](#cleanup)
 
 #### <a name="prerequisites"></a>Prerequisites
 * A complete install of `Python 3.x`.
@@ -28,15 +27,32 @@ C:\Users\nso89>cd using-text-to-generate-media-folders-main
 
 **Example**:
 ```
+C:\Users\nso89\using-text-to-generate-media-folders-main>python main.py
 ```
-#### <a name="configuration"></a>Configuration
-If you need to change the `insert-variable-name(s)`:
 
-1. Open the `main.py` script in any text editor.
-2. Locate the `insert-variable-name(s)` variable.
+3. It asks you for the `folder` name:
 
 **Example**:
 ```
+Folder Name: Trip to Banff National Park
+```
+4. Under `Downloads`, the `main.py` generates `1` folder and `2` subfolders:
+
+**Example**:
+```
+C:\Users\nso89\Downloads\Trip to Banff National Park
+C:\Users\nso89\Downloads\Trip to Banff National Park\Sets
+C:\Users\nso89\Downloads\Trip to Banff National Park\Video
+```
+
+#### <a name="configuration"></a>Configuration
+If you need to change the `SOURCE_PARENT`:
+
+1. Open the `main.py` script in any text editor.
+2. Locate the `SOURCE_PARENT` variable.
+
+**Example**:
+```
+SOURCE_PARENT = Path.home().joinpath("Downloads")
 ```
 3. When you finish changing the variables, save and close the editor.
-#### <a name="cleanup"></a>Clean Up
