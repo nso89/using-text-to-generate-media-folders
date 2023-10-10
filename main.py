@@ -32,7 +32,7 @@ def main():
         for sub_folder in sub_folders:
             source.joinpath(sub_folder).mkdir(exist_ok = False)
     
-    except(FileExistsError, ValueError) as e:
+    except(FileExistsError, OSError, ValueError) as e:
         print(e)
 
 if __name__ == "__main__":
